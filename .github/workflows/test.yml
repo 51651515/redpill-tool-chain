@@ -81,7 +81,6 @@ jobs:
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/r8168/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/igb/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/e1000/rpext-index.json
-          ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/vmw_pvscsi/rpext-index.json
 
       - name: 添加扩展驱动[dva3221]
         if: matrix.platform == 'dva3221'
